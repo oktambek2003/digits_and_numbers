@@ -11,8 +11,9 @@ Returns:
 int func(int a) {
   int b = a ~/ 10;
   int d = a % 10;
-  return b%d;
+  return b % d;
 }
 
 void main() {
   print(func(56));
+}
