@@ -8,4 +8,13 @@
   Returns:
       return answer
   */
-void main() {}
+int func(int a) {
+  int b = a ~/ 10;
+  int d = a % 10;
+  int s = (b + d) ~/ 2;
+  return s;
+}
+
+void main() {
+  print(func(56));
+}
